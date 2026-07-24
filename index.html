@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5f1">
+  <meta name="description" content="Nigel Appiah builds fast, accessible websites and useful web applications. Explore Attendly, Londus Mart, and DE Clothing.">
+  <meta name="author" content="Nigel Appiah">
+  <meta property="og:title" content="Nigel Appiah — Web Developer">
+  <meta property="og:description" content="Clean interfaces, responsive builds, and practical web applications by Nigel Appiah.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <title>Nigel Appiah — Web Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="spotlight" id="spotlight" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Nigel Appiah, home">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>Nigel Appiah</span>
+      </a>
+      <button class="menu-button" id="menuButton" type="button" aria-controls="navLinks" aria-expanded="false">
+        <span class="sr-only">Open navigation</span><i></i><i></i>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta magnetic" href="#contact">Let’s talk <span aria-hidden="true">→</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="hero-greeting">Hi, I’m Nigel Appiah <span aria-hidden="true">👋</span></p>
+          <h1>Full Stack<br><span>Web Developer.</span></h1>
+          <p class="hero-intro">Building fast, scalable web applications with exceptional user experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-dark magnetic ripple-button" href="#projects">Explore projects <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet magnetic ripple-button" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span>Based in Accra, Ghana</span>
+            <a href="https://github.com/appiahnigel3-source" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-parallax>
+          <div class="hero-glow" aria-hidden="true"></div>
+          <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+          <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+          <div class="floating-code code-left" aria-hidden="true">&lt;/&gt;</div>
+          <div class="floating-code code-right" aria-hidden="true">&gt;_</div>
+          <img src="assets/images/nigel-memoji.png" alt="Memoji of Nigel Appiah working behind a laptop" width="1254" height="1254" fetchpriority="high">
+          <div class="visual-caption"><span></span> Design · Develop · Refine</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section featured-showcase" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="section-label">Featured project</p><h2>Attendance, without the paperwork.</h2></div>
+          <p>Attendly brings role-based access, attendance records, and reporting into one clear, responsive application.</p>
+        </div>
+        <article class="featured-project reveal">
+          <button class="featured-media gallery-trigger" type="button" data-gallery-open aria-label="Open Attendly screenshot gallery">
+            <span class="browser-mockup browser-mockup-large">
+              <span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>attendlly-app.netlify.app</span></span>
+              <span class="browser-screen"><img src="assets/images/attendly/dashboard.png" alt="Attendly attendance dashboard with summary cards and navigation" width="1200" height="760" loading="eager" decoding="async"></span>
+            </span>
+            <span class="featured-badge">Explore 5 screens <span aria-hidden="true">↗</span></span>
+          </button>
+          <div class="featured-copy">
+            <div><p class="project-kicker">01 · SaaS-style web application</p><h3>Attendly</h3></div>
+            <p>A school attendance management application for admins, teachers, and students. Visitors can understand the core workflow at a glance, then explore the full five-screen product gallery.</p>
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Supabase</li><li>GitHub</li><li>Netlify</li>
+            </ul>
+            <div class="project-actions">
+              <a class="button button-accent magnetic ripple-button" href="https://attendlly-app.netlify.app/" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
+              <a class="button button-outline" href="https://github.com/appiahnigel3-source/attendance-management-system" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="section-intro reveal">
+          <p class="section-label">About</p>
+          <h2>I build for the person using the product.</h2>
+        </div>
+        <div class="about-content reveal">
+          <p class="lead">I build modern web products that make practical tasks feel simple. My approach combines clear interface decisions, responsive engineering, and maintainable code.</p>
+          <p>I’m expanding from polished storefronts into data-driven web applications, with a long-term goal of building dependable software that people enjoy using every day.</p>
+          <a class="inline-link" href="#projects">See how I work <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="container journey reveal" aria-labelledby="journey-title">
+        <div class="journey-heading">
+          <p class="section-label">Learning journey</p>
+          <h3 id="journey-title">Progress through practice.</h3>
+        </div>
+        <ol class="journey-list">
+          <li><span>01</span><div><h4>Built the foundations</h4><p>Learned semantic HTML, responsive CSS, JavaScript, and version-controlled workflows.</p></div></li>
+          <li><span>02</span><div><h4>Shipped real storefronts</h4><p>Applied those skills to responsive grocery and fashion e-commerce experiences.</p></div></li>
+          <li><span>03</span><div><h4>Moved into web applications</h4><p>Built Attendly with authentication, role-based workflows, records, and reporting.</p></div></li>
+        </ol>
+      </div>
+      <div class="container about-stats reveal" aria-label="Portfolio highlights">
+        <div><strong data-count="3">03</strong><span>Featured builds</span></div>
+        <div><strong data-count="5">05</strong><span>Attendly interfaces</span></div>
+        <div><strong data-count="6">06</strong><span>Core technologies</span></div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="section-label">Capabilities</p><h2>A focused toolkit for modern web products.</h2></div>
+          <p>Tools are only useful when they make the final experience clearer, faster, and more reliable.</p>
+        </div>
+        <div class="skill-grid technology-cards">
+          <article class="skill-card reveal tilt-card"><span class="skill-index">01</span><div class="skill-icon" aria-hidden="true">H5</div><h3>HTML</h3><p>Semantic, accessible page structure.</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-index">02</span><div class="skill-icon" aria-hidden="true">C3</div><h3>CSS</h3><p>Responsive layouts and refined visual systems.</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-index">03</span><div class="skill-icon" aria-hidden="true">JS</div><h3>JavaScript</h3><p>Clear interactions and browser application logic.</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-index">04</span><div class="skill-icon" aria-hidden="true">S</div><h3>Supabase</h3><p>Authentication and application data workflows.</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-index">05</span><div class="skill-icon" aria-hidden="true">GH</div><h3>GitHub</h3><p>Version control and collaborative delivery.</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-index">06</span><div class="skill-icon" aria-hidden="true">N</div><h3>Netlify</h3><p>Fast, reliable static web deployment.</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-index">07</span><div class="skill-icon" aria-hidden="true">↔</div><h3>Responsive design</h3><p>Comfortable interfaces on every screen.</p></article>
+          <article class="skill-card reveal tilt-card"><span class="skill-index">08</span><div class="skill-icon" aria-hidden="true">◇</div><h3>UI/UX</h3><p>Useful hierarchy, flows, and interaction states.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" aria-labelledby="more-projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="section-label">More selected work</p><h2 id="more-projects-title">Responsive experiences with a clear purpose.</h2></div>
+          <p>Two storefronts designed to make products easy to discover across desktop and mobile.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal tilt-card">
+            <a class="project-media" href="https://londusmart.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Londus Mart live website">
+              <span class="browser-mockup"><span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>londusmart.netlify.app</span></span><span class="browser-screen"><img src="assets/images/londus-mart.png" alt="Londus Mart grocery storefront home page" width="1348" height="641" loading="lazy" decoding="async"></span></span>
+              <span class="project-hover">View project ↗</span>
+            </a>
+            <div class="project-body">
+              <p class="project-kicker">02 · E-commerce</p><h3>Londus Mart</h3>
+              <p>A responsive grocery storefront that makes products easy to browse across desktop and mobile screens.</p>
+              <ul class="tech-list" aria-label="Technologies used"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <div class="project-actions">
+                <a class="button button-outline" href="https://londusmart.netlify.app/" target="_blank" rel="noopener noreferrer">Live demo ↗</a>
+                <a class="button button-quiet" href="https://github.com/appiahnigel3-source/Londus-Mart" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal tilt-card">
+            <a class="project-media" href="https://declothing.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Open DE Clothing live website">
+              <span class="browser-mockup"><span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>declothing.netlify.app</span></span><span class="browser-screen"><img src="assets/images/de.png" alt="DE Clothing fashion storefront home page" width="1352" height="641" loading="lazy" decoding="async"></span></span>
+              <span class="project-hover">View project ↗</span>
+            </a>
+            <div class="project-body">
+              <p class="project-kicker">03 · E-commerce</p><h3>DE Clothing</h3>
+              <p>A fashion storefront designed to present products clearly and make browsing comfortable on every screen.</p>
+              <ul class="tech-list" aria-label="Technologies used"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <div class="project-actions">
+                <a class="button button-outline" href="https://declothing.netlify.app/" target="_blank" rel="noopener noreferrer">Live demo ↗</a>
+                <a class="button button-quiet" href="https://github.com/appiahnigel3-source/De" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-card reveal">
+        <div class="contact-copy">
+          <p class="section-label">Start a conversation</p>
+          <h2>Have a useful idea?<br>Let’s build it well.</h2>
+          <p>Tell me what you’re working on, what needs improving, or what you want to launch.</p>
+          <div class="contact-direct">
+            <a href="mailto:nigelpiah@gmail.com">nigelpiah@gmail.com <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/appiahnigel3-source" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-field"><label for="contactName">Your name</label><input id="contactName" name="name" type="text" autocomplete="name" required></div>
+          <div class="form-field"><label for="contactEmail">Your email</label><input id="contactEmail" name="email" type="email" autocomplete="email" required></div>
+          <div class="form-field"><label for="contactMessage">What would you like to build?</label><textarea id="contactMessage" name="message" rows="5" required></textarea></div>
+          <button class="button button-light magnetic" type="submit">Open email draft <span aria-hidden="true">↗</span></button>
+          <p class="form-note">This opens your email app—no message is sent automatically.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <a class="brand" href="#home" aria-label="Back to the top"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>Nigel Appiah</span></a>
+      <p>© <span id="year">2026</span> Nigel Appiah</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="gallery-dialog" id="projectGallery" role="dialog" aria-modal="true" aria-labelledby="galleryTitle" hidden>
+    <div class="gallery-backdrop" data-gallery-close></div>
+    <div class="gallery-panel">
+      <div class="gallery-header">
+        <div><p class="section-label">Attendly interface</p><h2 id="galleryTitle">Product gallery</h2></div>
+        <button class="gallery-close" type="button" data-gallery-close aria-label="Close screenshot gallery">×</button>
+      </div>
+      <div class="gallery-stage" aria-live="polite">
+        <figure class="gallery-slide" data-gallery-slide><img src="assets/images/attendly/login.png" alt="Attendly login page" width="1200" height="760" loading="lazy" decoding="async"><figcaption>Login page</figcaption></figure>
+        <figure class="gallery-slide is-active" data-gallery-slide><img src="assets/images/attendly/dashboard.png" alt="Attendly dashboard" width="1200" height="760" loading="lazy" decoding="async"><figcaption>Dashboard</figcaption></figure>
+        <figure class="gallery-slide" data-gallery-slide><img src="assets/images/attendly/students.png" alt="Attendly students page" width="1200" height="760" loading="lazy" decoding="async"><figcaption>Students page</figcaption></figure>
+        <figure class="gallery-slide" data-gallery-slide><img src="assets/images/attendly/attendance.png" alt="Attendly attendance page" width="1200" height="760" loading="lazy" decoding="async"><figcaption>Attendance page</figcaption></figure>
+        <figure class="gallery-slide" data-gallery-slide><img src="assets/images/attendly/reports.png" alt="Attendly reports page" width="1200" height="760" loading="lazy" decoding="async"><figcaption>Reports page</figcaption></figure>
+        <button class="gallery-arrow gallery-previous" type="button" data-gallery-previous aria-label="View previous screenshot">←</button>
+        <button class="gallery-arrow gallery-next" type="button" data-gallery-next aria-label="View next screenshot">→</button>
+      </div>
+      <div class="gallery-footer">
+        <p class="gallery-status"><span id="galleryCurrent">2</span> / 5</p>
+        <div class="gallery-thumbnails" aria-label="Choose a screenshot">
+          <button type="button" data-gallery-index="0" aria-label="Show login page screenshot"><img src="assets/images/attendly/login.png" alt="" width="1200" height="760"></button>
+          <button class="is-active" type="button" data-gallery-index="1" aria-label="Show dashboard screenshot" aria-current="true"><img src="assets/images/attendly/dashboard.png" alt="" width="1200" height="760"></button>
+          <button type="button" data-gallery-index="2" aria-label="Show students page screenshot"><img src="assets/images/attendly/students.png" alt="" width="1200" height="760"></button>
+          <button type="button" data-gallery-index="3" aria-label="Show attendance page screenshot"><img src="assets/images/attendly/attendance.png" alt="" width="1200" height="760"></button>
+          <button type="button" data-gallery-index="4" aria-label="Show reports page screenshot"><img src="assets/images/attendly/reports.png" alt="" width="1200" height="760"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
