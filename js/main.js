@@ -98,6 +98,17 @@ if (finePointer && !reducedMotion) {
   });
 
   const parallax = select("[data-parallax]");
+  const terminal = select(".terminal-card", parallax || document);
+  parallax?.addEventListener("pointermove", (event) => {
+    if (!terminal) return;
+    const bounds = parallax.getBoundingClientRect();
+    terminal.style.setProperty("--terminal-x", `${((event.clientX - bounds.left) / bounds.width - .5) * 7}px`);
+    terminal.style.setProperty("--terminal-y", `${((event.clientY - bounds.top) / bounds.height - .5) * 7}px`);
+  });
+  parallax?.addEventListener("pointerleave", () => {
+    terminal?.style.setProperty("--terminal-x", "0px");
+    terminal?.style.setProperty("--terminal-y", "0px");
+  });
   window.addEventListener("scroll", () => {
     if (!parallax) return;
     const bounds = parallax.getBoundingClientRect();
