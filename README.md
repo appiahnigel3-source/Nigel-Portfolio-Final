@@ -9,7 +9,7 @@ A responsive portfolio for web developer Nigel Appiah. The site presents selecte
 - Transparent Memoji hero artwork with a lightweight CSS gradient treatment
 - Glass navigation, restrained scroll reveals, and reduced-motion support
 - Featured Attendance Management System gallery with five real interface screenshots
-- Project presentations for Londus Mart and DE Clothing
+- Project presentations for Nova Mart and DE Clothing
 - Contact form that opens a pre-filled email draft without pretending to use a backend
 - Keyboard-visible focus states
 - Search and social sharing metadata
@@ -62,5 +62,5 @@ LinkedIn is intentionally omitted until a profile is available.
 ## Project repositories
 
 - [Attendance Management System](https://github.com/appiahnigel3-source/attendance-management-system)
-- [Londus Mart](https://github.com/appiahnigel3-source/Londus-Mart)
+- [Nova Mart](https://github.com/appiahnigel3-source/Londus-Mart)
 - [DE Clothing](https://github.com/appiahnigel3-source/De)
