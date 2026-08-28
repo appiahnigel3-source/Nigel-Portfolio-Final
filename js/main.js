@@ -117,18 +117,7 @@ if (finePointer && !reducedMotion) {
   }, { passive: true });
 }
 
-const contactForm = select("#contactForm");
-contactForm?.addEventListener("submit", (event) => {
-  event.preventDefault();
-  if (!contactForm.reportValidity()) return;
-  const data = new FormData(contactForm);
-  const name = String(data.get("name") || "").trim();
-  const email = String(data.get("email") || "").trim();
-  const message = String(data.get("message") || "").trim();
-  const subject = encodeURIComponent(`Portfolio enquiry from ${name}`);
-  const body = encodeURIComponent(`${message}\n\nFrom: ${name}\nEmail: ${email}`);
-  window.location.href = `mailto:nigelpiah@gmail.com?subject=${subject}&body=${body}`;
-});
+
 
 const counters = selectAll("[data-count]");
 function setCounter(counter, value) {
